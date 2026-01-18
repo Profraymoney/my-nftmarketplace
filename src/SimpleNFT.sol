@@ -4,10 +4,10 @@ pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract SimpleNFT is ERC721, Ownable {
+contract myNFT is ERC721, Ownable {
     uint256 public tokenCounter;
 
-  constructor() ERC721("SimpleNFT", "SNFT") Ownable(msg.sender) {
+  constructor() ERC721("myNFT", "MNFT") Ownable(msg.sender) {
     tokenCounter = 0;
     }
 
@@ -23,3 +23,4 @@ contract SimpleNFT is ERC721, Ownable {
         approve(marketplace, tokenId);
     }
 }
+
