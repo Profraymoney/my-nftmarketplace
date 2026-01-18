@@ -1,0 +1,15 @@
+{
+  "name": "My First NFT",
+  "description": "This is my very first NFT on Sepolia testnet.",
+  "image": "https://gateway.pinata.cloud/ipfs/bafkreiby4o2jmync4pjgutiqmzoefk36hek5kt2eepghhrm266pqqxjv3y",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Level",
+      "value": 1
+    }
+  ]
+}
